@@ -82,7 +82,6 @@ data.mean.plot <-data.mean  %>%
                                 Year == "2018-19" ~ 2019))
 
 
-#install.packages('C:/Users/daniel.thompson/Documents/R/ggthemr-master.zip', repos = NULL, type = "win.binary")
 
 data.mean.plot_slowdown <- data.mean.plot %>%
   group_by(Year) %>%
